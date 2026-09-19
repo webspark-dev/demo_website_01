@@ -1,7 +1,7 @@
 // Replace image URLs here without changing the layout or JavaScript behavior.
 const backgroundAssets = {
-  hero: 'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=2200&q=90',
-  story: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=85'
+  hero: 'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1600&q=75',
+  story: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=75'
 };
 
 const galleryImages = [
