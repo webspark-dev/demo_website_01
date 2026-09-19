@@ -1,17 +1,17 @@
 // Replace image URLs here without changing the layout or JavaScript behavior.
 const backgroundAssets = {
-  hero: 'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1600&q=75',
-  story: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=75'
+  hero: 'assets/images/hero.jpg',
+  story: 'assets/images/story.jpg'
 };
 
 const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85', alt: 'Warmly lit restaurant interior', label: 'The dining room' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Chicken_Biryani_4.jpg', alt: 'Chicken biryani with saffron rice', label: 'Biryani ritual' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Chicken-Tikka.jpg', alt: 'Charred chicken tikka', label: 'From the tandoor' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Butter_Chicken%2C_Goa.jpg', alt: 'Butter chicken in a brass bowl', label: 'Royal gravies' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Chicken_Chow_Mein.JPG', alt: 'Chicken chow mein', label: 'The wok' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Gulab_Jamun_1.jpg', alt: 'Gulab jamun dessert', label: 'A sweet ending' },
-  { src: 'https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=85', alt: 'Mango lassi in a glass', label: 'Cool sips' }
+  { src: 'assets/images/dining-room.jpg', alt: 'Warmly lit restaurant interior', label: 'The dining room' },
+  { src: 'assets/images/chicken_biryani_4.jpg', alt: 'Chicken biryani with saffron rice', label: 'Biryani ritual' },
+  { src: 'assets/images/chicken-tikka.jpg', alt: 'Charred chicken tikka', label: 'From the tandoor' },
+  { src: 'assets/images/butter_chicken-2c_goa.jpg', alt: 'Butter chicken in a brass bowl', label: 'Royal gravies' },
+  { src: 'assets/images/chicken_chow_mein.jpg', alt: 'Chicken chow mein', label: 'The wok' },
+  { src: 'assets/images/gulab_jamun_1.jpg', alt: 'Gulab jamun dessert', label: 'A sweet ending' },
+  { src: 'assets/images/mango-lassi.jpg', alt: 'Mango lassi in a glass', label: 'Cool sips' }
 ];
 
 document.documentElement.style.setProperty('--hero-image', `url("${backgroundAssets.hero}")`);
