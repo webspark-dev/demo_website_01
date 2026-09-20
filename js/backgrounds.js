@@ -1,9 +1,10 @@
-// Replace image URLs here without changing the layout or JavaScript behavior.
+// UPDATE HERO AND STORY PHOTOS HERE. Use local paths from assets/images/ for faster loading.
 const backgroundAssets = {
   hero: 'assets/images/hero.jpg',
   story: 'assets/images/story.jpg'
 };
 
+// UPDATE GALLERY PHOTOS HERE: src, alt text and the label shown on each image.
 const galleryImages = [
   { src: 'assets/images/dining-room.jpg', alt: 'Warmly lit restaurant interior', label: 'The dining room' },
   { src: 'assets/images/chicken_biryani_4.jpg', alt: 'Chicken biryani with saffron rice', label: 'Biryani ritual' },

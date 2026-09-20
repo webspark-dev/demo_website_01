@@ -1,3 +1,4 @@
+// UPDATE RESTAURANT DETAILS HERE: name, phone, WhatsApp, address, map and opening hours.
 const restaurant = {
   name: 'The Royal Spice',
   phone: '+91 98765 43210',
@@ -8,6 +9,8 @@ const restaurant = {
   menuUrl: ''
 };
 
+// UPDATE MENU ITEMS HERE: name, category, price, description, image, type and availability.
+// Set featured: true to show a dish in the "All-time special" section.
 const menuItems = [
   { id: 1, name: 'Chicken Biryani', category: 'Biryani', price: 360, description: 'Fragrant basmati rice, tender chicken, saffron and royal whole spices.', image: 'assets/images/chicken_biryani_4.jpg', type: 'Non-Veg', available: true, featured: true },
   { id: 2, name: 'Mutton Biryani', category: 'Biryani', price: 460, description: 'Slow-cooked mutton layered with aromatic rice, fried onions and mint.', image: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Mutton_biryani.JPG', type: 'Non-Veg', available: true, featured: true },
