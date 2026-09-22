@@ -50,6 +50,7 @@ document.querySelectorAll('[data-maps-link]').forEach(link => {
 });
 document.querySelector('#addressText').textContent = restaurant.address;
 document.querySelector('#hoursText').textContent = restaurant.hours;
+// The QR always opens the live menu URL; new menu content appears after each deployment.
 const menuPageUrl = restaurant.menuUrl || `${window.location.origin}${window.location.pathname}#menu`;
 const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=600x600&format=png&data=${encodeURIComponent(menuPageUrl)}`;
 const menuQr = document.querySelector('#menuQr');

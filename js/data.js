@@ -1,4 +1,5 @@
 // UPDATE RESTAURANT DETAILS HERE: name, phone, WhatsApp, address, map and opening hours.
+// Keep menuUrl on the permanent live domain so the same QR keeps working after menu updates.
 const restaurant = {
   name: 'The Royal Spice',
   phone: '+91 98765 43210',
@@ -6,7 +7,7 @@ const restaurant = {
   address: '18 Park Street, Kolkata, West Bengal 700016',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=18+Park+Street+Kolkata',
   hours: 'Open daily, 12:00 PM - 11:00 PM',
-  menuUrl: ''
+  menuUrl: 'https://the-royal-spice-cyan.vercel.app/#menu'
 };
 
 // UPDATE MENU ITEMS HERE: name, category, price, description, image, type and availability.
